@@ -1,0 +1,34 @@
+# Rust
+target/
+Cargo.lock
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# Generated TypeScript types (optional - you may want to commit these)
+# bindings/
